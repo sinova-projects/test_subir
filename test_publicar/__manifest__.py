@@ -11,7 +11,7 @@
     'website': 'https://tuempresa.com',
     'category': 'Tools',
     'license': 'OPL-1',
-    'price': 0.00,  # Puedes dejarlo gratis o ponerle un valor de prueba
+    'price': 2.00,  # Puedes dejarlo gratis o ponerle un valor de prueba
     'currency': 'USD',
     'depends': ['base'],
     'data': [
