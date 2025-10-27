@@ -7,7 +7,7 @@
         Este módulo es una prueba de publicación en el Odoo App Store.
         No agrega funcionalidad real, solo sirve como ejemplo.
     """,
-    'author': 'Tu Nombre o Empresa',
+    'author': 'Sinova',
     'website': 'https://tuempresa.com',
     'category': 'Tools',
     'license': 'OPL-1',
