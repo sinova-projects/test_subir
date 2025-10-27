@@ -1,0 +1,35 @@
+<odoo>
+    <record id="view_test_tree" model="ir.ui.view">
+        <field name="name">test.appstore.model.tree</field>
+        <field name="model">test.appstore.model</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_test_form" model="ir.ui.view">
+        <field name="name">test.appstore.model.form</field>
+        <field name="model">test.appstore.model</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="name"/>
+                    <field name="active"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <menuitem id="menu_test_root" name="Prueba AppStore"/>
+    <menuitem id="menu_test_model" name="Modelos de Prueba"
+              parent="menu_test_root" action="action_test_model"/>
+
+    <record id="action_test_model" model="ir.actions.act_window">
+        <field name="name">Modelos de Prueba</field>
+        <field name="res_model">test.appstore.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
